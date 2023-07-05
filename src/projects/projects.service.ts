@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { db, bucket } from '../../firebase/config';
+import { db, bucket } from '../../config';
 
 @Injectable()
 export class ProjectsService {
